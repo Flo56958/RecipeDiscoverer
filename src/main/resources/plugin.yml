@@ -1,0 +1,10 @@
+name: RecipeDiscoverer
+version: ${project.version}
+main: flo56958.recipediscoverer.RecipeDiscoverer
+api-version: 1.13
+author: Flo56958
+
+permissions:
+  recipediscoverer.allow:
+    description: Allows to discover all recipes on the server.
+    default: true
